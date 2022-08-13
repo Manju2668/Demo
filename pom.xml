@@ -27,11 +27,11 @@
     </dependency>
   </dependencies>
 
-<profiles>
-<profile>
-<id>sonar</id>
-<activation>
-<activeByDefault>true</activeByDefault>
+ <profiles>
+  <profile>
+   <id>sonar</id>
+   <activation>
+  <activeByDefault>true</activeByDefault>
 </activation>
 <properties>
 <!-- Optional URL to server. Default value is http://localhost:9000 -->
@@ -40,7 +40,7 @@ http://localhost:9000
 </sonar.host.url>
 </properties>
 </profile>
-
+</profiles>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
